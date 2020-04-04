@@ -1,0 +1,90 @@
+body {
+	padding: 8px 1px;
+	font-family: "Avenir Next";
+}
+.header {
+	color: white;
+	background-color: #26d0c9;
+	overflow: auto;
+}
+.header-logo {
+	float: left;
+	font-size: 36px;
+	padding: 25px 40px;
+}
+.header-list {
+	float: left;
+}
+.header-list li {
+	float: left;
+	list-style: none;
+	padding: 35px 20px;
+}
+.footer {
+	background-color: #2f5167;
+	color: white;
+	overflow: hidden;
+	height: 210px;
+	width: 100%;
+}
+.footer-left {
+	font-size: 36px;
+	float: left;
+	padding: 38px;
+}
+.footer-right {
+	float: right;
+	padding: 38px;
+}
+.footer-right li {
+	list-style: none;
+	padding: 14px;
+}
+.main {
+	padding: 100px 80px;
+	overflow: hidden;
+}
+.main-first h1 {
+	font-size: 140px;
+}
+.main-first h2 {
+	font-size: 60px;
+}
+.main-first span {
+	color: red;
+}
+.main-second {
+	padding-top: 28px;
+	overflow: auto;
+}
+.main-second h2 {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 28px;
+	padding-bottom: 12px;
+}
+.main-second-images-each {
+	float: left;
+	margin: 30px 40px 40px 0px;
+}
+.main-second-images-each p {
+	font-size: 25px;
+}
+.main-contact {
+	width: 100%;
+}
+.main-contact h2 {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 28px;
+	padding-bottom: 12px;
+}
+input, textarea {
+	border: 1px solid #dee7ec;
+	width: 400px;
+	margin: 10px 0px 30px 0px;
+	font-size: 18px;
+	padding: 20px;
+}
+.main-contact-submit {
+	background-color: #dee7ec;
+	color: #889eab;
+}
